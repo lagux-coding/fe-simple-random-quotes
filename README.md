@@ -1,54 +1,31 @@
-# React + TypeScript + Vite
+# Random Quotes Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 A Random Quotes Generator built with React + TypeScript (frontend) and Spring Boot (backend). This project delivers inspiring quotes with a clean UI and smooth animations.
 
-Currently, two official plugins are available:
+## 📦 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 Frontend
 
-## Expanding the ESLint configuration
+| Technology        | Badge                                                                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **React**         | ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)                     |
+| **TypeScript**    | ![TypeScript](https://img.shields.io/badge/TypeScript-5.7.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)   |
+| **ShadCN**        | ![ShadCN](https://img.shields.io/badge/ShadCN-UI-EA4AAA?style=for-the-badge&logo=shadcn&logoColor=white)                  |
+| **Framer Motion** | ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-6.0-FF0080?style=for-the-badge&logo=framer&logoColor=white) |
+| **Vite**          | ![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)                       |
+| **Axios**         | ![Axios](https://img.shields.io/badge/Axios-HTTP-5A29E4?style=for-the-badge&logo=axios&logoColor=white)                   |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### ⚙️ Backend
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+| Technology                | Badge                                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Spring Boot**           | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) |
+| **PostgreSQL (Supabase)** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791?style=for-the-badge&logo=postgresql&logoColor=white)      |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### ☁️ Deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+| Platform           | Badge                                                                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Vercel**         | ![Vercel](https://img.shields.io/badge/Vercel-Hosting-000000?style=for-the-badge&logo=vercel&logoColor=white)                        |
+| **AWS**            | ![AWS](https://img.shields.io/badge/AWS-Cloud%20Services-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)                  |
+| **GitHub Actions** | ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI/CD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) |
