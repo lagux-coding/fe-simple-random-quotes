@@ -11,4 +11,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    allowedHosts: [
+      "accepted-moss-collected-restructuring.trycloudflare.com",
+      "localhost",
+      "0.0.0.0",
+    ],
+  },
 });
