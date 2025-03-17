@@ -20,7 +20,7 @@
 | Technology                | Badge                                                                                                                     |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **Spring Boot**           | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) |
-| **PostgreSQL (Supabase)** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791?style=for-the-badge&logo=postgresql&logoColor=white)      |
+| **PostgreSQL (aiven)** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16.8-336791?style=for-the-badge&logo=postgresql&logoColor=white)      |
 
 ### ☁️ Deployment
 
