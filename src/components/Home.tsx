@@ -42,7 +42,7 @@ const Home = () => {
   }, []);
 
   return (
-    <main className="relative min-h-screen flex flex-col items-center justify-center">
+    <main className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       <MeteorShowerBackground
         color="#B8A2F9"
         count={30}
