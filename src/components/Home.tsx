@@ -60,7 +60,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="text-center p-10 max-w-4xl">
-            <h1 className="font-amatic text-white text-xl md:text-4xl lg:5xl shadow-lg tracking-wider">
+            <h1 className="font-amatic text-white text-4xl md:text-5xl lg:6xl shadow-lg tracking-wider">
               {quote.content}
             </h1>
             <p className="text-sm md:text-2xl text-white/80 font-medium">
