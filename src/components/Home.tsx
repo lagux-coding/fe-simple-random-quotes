@@ -16,14 +16,15 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-  const API_URL = import.meta.env.VITE_API_URL;
+  const BASE_API_URL = import.meta.env.VITE_API_URL;
+  const RANDOM_QUOTE_API = `${BASE_API_URL}/quote/random`;
 
   const fetchQuote = async () => {
     setIsLoading(true);
     setError(null);
 
     try {
-      const response = await axios.get<{ data: Quote }>(API_URL);
+      const response = await axios.get<{ data: Quote }>(`${RANDOM_QUOTE_API}`);
       if (response.data.data) {
         setQuote(response.data.data);
       } else {
