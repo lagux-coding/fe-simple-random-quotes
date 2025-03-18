@@ -60,7 +60,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="text-center p-10 max-w-4xl">
-            <h1 className="font-amatic text-white text-4xl md:text-5xl lg:6xl shadow-lg tracking-wider">
+            <h1 className="font-amatic text-white text-4xl md:text-5xl lg:6xl shadow-lg tracking-wide">
               {quote.content}
             </h1>
             <p className="text-sm md:text-2xl text-white/80 font-medium">
@@ -69,7 +69,7 @@ const Home = () => {
             <Button
               onClick={fetchQuote}
               variant="outline"
-              className="mt-8 p-8 font-bold rounded-lg border border-4 border-white hover:bg-zinc-200 hover:text-black hover:scale-105 active:scale-95">
+              className="text-3xl md:text-4xl lg:text-5xl tracking-wide mt-8 p-5 md:p-8 font-bold rounded-xl border border-2 border-white hover:bg-zinc-200 hover:text-black hover:scale-105 active:scale-95">
               Get New Quote
             </Button>
           </motion.div>
