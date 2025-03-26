@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&family=Inter:opsz,wght@14..32,500&display=swap");
-
+@import url("https://fonts.cdnfonts.com/css/monday-feelings");
 @custom-variant dark (&:is(.dark *));
 @import "tailwindcss";
 @plugin "daisyui";
@@ -7,7 +6,7 @@
 @plugin "tailwindcss-animate";
 
 @theme {
-  --font-amatic: "Amatic SC", "sans-serif";
+  --font-monday: "Monday Feelings", "sans-serif";
 }
 
 :root {
